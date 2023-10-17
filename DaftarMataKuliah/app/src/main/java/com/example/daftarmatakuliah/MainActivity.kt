@@ -27,6 +27,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
@@ -98,7 +99,8 @@ fun DaftarMatkulApp(
         contentPadding = PaddingValues(16.dp)
     )
     { val itemCount = ikon.size
-        items(itemCount) { item ->
+        items(itemCount)
+        { item ->
             ColoumItem(
                 itemIndex = item,
                 nama = namamatkul,
@@ -137,7 +139,8 @@ fun DaftarMatkulApp(
                     fontWeight = FontWeight.Bold,
                     fontSize = 20.sp)
                 Text(text = sks[itemIndex],
-                    fontSize = 18.sp)
+                    fontSize = 18.sp,
+                    textAlign = TextAlign.Center)
             }
         }
     }
