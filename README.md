@@ -1,9 +1,9 @@
 # UTS-Mobile-Computing
-<b>Daniella Natani Budiman</b>
+<b>Nama: </b>Daniella Natani Budiman
 <br>
-<b>1313621008</b>
+<b>NIM: </b>1313621008
 <br>
-<b>Ilmu Komputer 2021</b>
+<b>Program Studi/Angkatan: </b> Ilmu Komputer/2021
 <br>
 <br>
 <br>
